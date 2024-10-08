@@ -3573,12 +3573,12 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 3000px) {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, #21357e, rgba(199, 190, 137, 0.8)), url("../../images/eagle.jpg");
+			background-image: linear-gradient(to top, #21357e, rgba(199, 190, 137, 0.8)), url("eagle.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
