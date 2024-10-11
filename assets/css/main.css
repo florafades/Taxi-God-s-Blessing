@@ -3466,10 +3466,10 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #6ad8d2;
-				background-image: linear-gradient(to top, #21357e, rgba(247, 236, 188, 0.8)), url("eagle.jpg");
+				background-image: linear-gradient(to top, #21357e, rgba(131, 39, 39, 0.8)), url("eagle.jpg");
 				background-size: auto,
  cover;
-				background-position: center,
+				background-position: right,
  top;
 				margin-bottom: -6.5em;
 			}
