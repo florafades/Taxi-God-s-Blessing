@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>About Us</title>
+		<title>Services</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -32,7 +32,7 @@
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="services.html">Services</a></li>
-								<li><a href="pricing.html">Pricing</a></li>
+								<li><a href="booking.html">booking</a></li>
 								<li><a href="about.html">About</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -43,14 +43,16 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>About Us</h2>
-								<p>Ride with Antonio
-									<br>Hebrews 6:13-14</p>
-									<p>Based out of Kent Island</p>
-									<p></p>
-							</div>
+								<h2 style="font-size:35px;">About</h2>
+								
+									<p><b style="color:rgb(238, 207, 69);font-size:18px;">Ride with Antonio
+										<br>Hebrews 6:13-14</b></p>
+										<p ><b style="color:rgb(238, 207, 69);font-size:18px;">Based out of Kent Island
+											<br>Call 410-858-7913 to book your ride
+										</b></p>
+							
+								</div>
 						</header>
-
 						<!-- Content -->
 							<div class="wrapper">
 								<div class="inner">
@@ -97,26 +99,25 @@
 						<div class="inner">
 							<h2 class="major">Contact Us</h2>
 							<p>Booking with us is quick an easy. simply give us a call or text any time at 410-858-7913!</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<br>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							<form
+  action="https://formspree.io/f/xlderyke"
+  method="POST"
+>
+<label>
+  Name
+  <input type="name" name="name">
+</label>
+  <label>
+    Email
+    <input type="email" name="email">
+  </label>
+  <label>
+    Message
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Taxi God's Blessing<br />

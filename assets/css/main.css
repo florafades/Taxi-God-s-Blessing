@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #21357e;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto,
  cover;
@@ -2178,6 +2178,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="name"],
 	input[type="tel"],
 	select,
 	textarea {
@@ -2200,6 +2201,7 @@ input, select, textarea {
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="name"]:invalid,
 		input[type="tel"]:invalid,
 		select:invalid,
 		textarea:invalid {
@@ -2209,6 +2211,7 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="name"]:focus,
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
@@ -2241,6 +2244,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="name"],
 	select {
 		height: 2.75em;
 	}
@@ -3005,7 +3009,7 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: #2a4091;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3076,7 +3080,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: #21357e;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3134,7 +3138,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
 					border-radius: 5px;
-					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+					box-shadow: inset 0 0 0 2px #21357e;
 					padding: 0 1.35em;
 				}
 
@@ -3157,11 +3161,11 @@ input, select, textarea {
 					}
 
 					#header nav a[href="#menu"]:hover {
-						background-color: rgba(255, 255, 255, 0.025);
+						background-color: #21357e;
 					}
 
 					#header nav a[href="#menu"]:active {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: #21357e;
 					}
 
 		#header.alt {
@@ -3291,7 +3295,7 @@ input, select, textarea {
 		}
 
 		#menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px #21357e;
 			padding-bottom: 1em;
 		}
 
@@ -3466,7 +3470,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #6ad8d2;
-				background-image: linear-gradient(to top, #21357e, rgba(131, 39, 39, 0.8)), url("eagle.jpg");
+				background-image: linear-gradient(to top, #21357e, rgba(131, 39, 39, 0.8)), url("eagle2.jpg");
 				background-size: auto,
  cover;
 				background-position: right,
@@ -3578,7 +3582,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, #21357e, rgba(199, 190, 137, 0.8)), url("eagle.jpg");
+			background-image: linear-gradient(to top, #21357e, rgba(131, 39, 39, 0.8)), url("eagle.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3625,21 +3629,21 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #21357e;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2321357e%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #21357e, 0 1px 0 0 #21357e;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #21357e, 0 1px 0 0 #21357e;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -4071,7 +4075,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(121, 104, 49, 0.8), rgba(143, 141, 19, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(131, 39, 39, 0.8), #21357e), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
