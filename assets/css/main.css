@@ -2245,6 +2245,7 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	input[type="name"],
+	input[type="tel"],
 	select {
 		height: 2.75em;
 	}
